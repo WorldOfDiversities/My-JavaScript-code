@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header {
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* RPS Buttons */
+  .Rpsbutton1, .Rpsbutton2, .Rpsbutton3 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 40px;
+    margin: 0 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .Rpsbutton1:hover, .Rpsbutton2:hover, .Rpsbutton3:hover {
+    transform: scale(1.1);
+  }
+  
+  .main-div {
+    display: flex;
+    margin: 80px 0 40px 0;
+  }
+  
+  /* Display player and computer choices */
+  .player1, .computer1 {
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+  
+  .secondDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 100px;
+  }
+  
+  /* Score area */
+  .thirdDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    gap: 10px;
+  }
+  
+  /* Stop/Restart button */
+  #stopGame {
+    background-color: #ff4444;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+  }
+  
+  #stopGame:hover {
+    background-color: #cc0000;
+  }
+  
+  #stopGame:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+  }
+  

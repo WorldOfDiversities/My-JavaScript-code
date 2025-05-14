@@ -1,0 +1,77 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    margin: 100px auto;
+    background-color: blueviolet;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.header {
+    background-color:lightgray;
+    width: fit-content; /* Automatically size to fit the h1 */
+    margin: 0 auto; /* Center the header horizontally */
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+}
+h3{
+    text-align: left;
+    margin-left: 38px;
+    margin-bottom: 1%;
+}
+
+.main-section{
+    padding-top: 50px;
+    margin-bottom: 0%s;
+    
+}
+input{
+    width: 80%;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.button{
+    margin-left: 38px;
+    margin-top:0%;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    
+}
+.button2{
+    display: flex;
+    justify-content:space-between ;
+    margin-top:0%;
+    padding-top: 0px;
+    margin-right: 25px;
+}
+.Tip{
+    /* background-color:lightgray;
+    width: fit-content; /* Automatically size to fit the h1 */
+    /* margin: 0 auto; /* Center the header horizontally */
+    /* padding: 10px 10px; */
+    /* border-radius: 5px; */ 
+    color: white;
+} 
+h2{
+    padding: 10px;;
+}
+
+.div{
+  padding: 10%;
+}
