@@ -31,20 +31,20 @@ Each project demonstrates a specific concept or technique — from DOM manipulat
 C:.
 ª   calculator.css
 ª   calculator.html
-ª   calculator.js
-ª   index.html
-ª   javascript.js
-ª   lesson.js
-ª   lesson3.js
-ª   practice.js
-ª   Random.css
-ª   Random.html
-ª   Random.js
-ª   Rps.css
-ª   Rps.html
-ª   Rps.js
-ª   structure.txt
-ª   
+   calculator.js
+   index.html
+   javascript.js
+   lesson.js
+   lesson3.js
+   practice.js
+   Random.css
+   Random.html
+   Random.js
+   Rps.css
+   Rps.html
+   Rps.js
+   structure.txt
+   
 +---superhero
         superhero.css
         superhero.html
